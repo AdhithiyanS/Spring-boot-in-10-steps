@@ -11,7 +11,7 @@ public class GameController {
 	@GetMapping("/games")
 	public List<Games> getGames()
 	{
-		return Arrays.asList(new Games(1,"Spiderman Miles Morales","PC Console"),new Games(2,"Spiderman Miles Morales","PC Console"));
+		return Arrays.asList(new Games(1,"Spiderman Miles Morales","PC Console2"),new Games(2,"Spiderman Miles Morales","PC Console"));
 	}
 
 }
